@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#183b2d">
+<meta name="description" content="متجر أرياف للشاي والقهوة في سلطنة عُمان. اختر منتجاتك وأرسل طلبك عبر واتساب.">
+<title>أرياف | الشاي والقهوة</title>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">أرياف <span>ARIYAF</span></div>
+    <div class="tagline">نكهة الشاي والقهوة في كل وقت</div>
+    <section class="intro">
+      <p class="eyebrow">من اختيارك إلى بابك</p>
+      <h1>قهوتك وشايك المفضّل، بطلب أسهل</h1>
+      <p>تصفّح المنتجات، اختر الكميات، ثم أرسل طلبك مباشرة عبر واتساب.</p>
+      <a class="intro-link" href="#products">تصفّح المنتجات <span aria-hidden="true">↓</span></a>
+    </section>
+  </div>
+</header>
+
+<main class="wrap">
+  <section aria-labelledby="products-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">اختيارات أرياف</p><h2 id="products-title">منتجاتنا</h2></div>
+      <span class="currency">الأسعار بالريال العُماني</span>
+    </div>
+    <nav id="filters" class="filters" aria-label="أقسام المنتجات"></nav>
+    <div id="products" class="products" aria-live="polite"></div>
+  </section>
+
+  <section class="cart" aria-labelledby="cart-title">
+    <div class="section-heading"><div><p class="eyebrow">طلبك القادم</p><h2 id="cart-title">سلة المشتريات</h2></div><span id="cart-count" class="count">0 منتجات</span></div>
+    <div id="cart-items" class="cart-items"><p class="empty">سلتك فارغة حاليًا. أضف ما يعجبك من المنتجات.</p></div>
+    <div class="total"><span>الإجمالي</span><strong id="total">٠٫٠٠٠ ر.ع.</strong></div>
+    <button id="checkout" class="checkout" type="button">إرسال الطلب عبر واتساب <span aria-hidden="true">↗</span></button>
+    <p class="notice">سيُفتح واتساب برسالة جاهزة بتفاصيل طلبك. اضغط «إرسال» داخل واتساب لإتمام الطلب. لا تُحفظ الطلبات على هذا الموقع.</p>
+  </section>
+</main>
+
+<footer><strong>أرياف ARIYAF</strong><span>الشاي والقهوة، بكل بساطة.</span></footer>
+<script src="./assets/products.js"></script>
+<script src="./assets/app.js"></script>
+</body>
+</html>
