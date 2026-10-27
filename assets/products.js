@@ -8,7 +8,7 @@ window.ARIYAF_PRODUCTS = [
     description: "شاي يومي بطابع عُماني.",
     price: 1.500,
     emoji: "🍵",
-    image: "images/tea-ariyaf.jpg"
+    image: "assets/images/tea-ariyaf.jpg"
   },
   {
     id: "tea-cardamom",
@@ -17,7 +17,7 @@ window.ARIYAF_PRODUCTS = [
     description: "نكهة الهيل الدافئة.",
     price: 2.000,
     emoji: "🫖",
-    image: "images/tea-cardamom.jpg"
+    image: "assets/images/tea-cardamom.jpg"
   },
   {
     id: "tea-herbal",
@@ -26,7 +26,7 @@ window.ARIYAF_PRODUCTS = [
     description: "مزيج أعشاب لوقت الاسترخاء.",
     price: 1.750,
     emoji: "🌿",
-    image: "images/herbal-tea.jpg"
+    image: "assets/images/herbal-tea.jpg"
   },
   {
     id: "coffee-arabic",
@@ -35,7 +35,7 @@ window.ARIYAF_PRODUCTS = [
     description: "قهوة عربية للمجالس والضيافة.",
     price: 2.500,
     emoji: "☕",
-    image: "images/coffee-arabic.jpg"
+    image: "assets/images/coffee-arabic.jpg"
   },
   {
     id: "coffee-specialty",
@@ -44,7 +44,7 @@ window.ARIYAF_PRODUCTS = [
     description: "قهوة لعشاق النكهة الغنية.",
     price: 3.000,
     emoji: "🫘",
-    image: "images/specialty-coffee.jpg"
+    image: "assets/images/specialty-coffee.jpg"
   },
   {
     id: "coffee-cardamom",
@@ -53,6 +53,6 @@ window.ARIYAF_PRODUCTS = [
     description: "قهوة مع لمسة هيل عطرية.",
     price: 2.750,
     emoji: "☕",
-    image: "images/coffee-cardamom.jpg"
+    image: "assets/images/coffee-cardamom.jpg"
   }
 ];
