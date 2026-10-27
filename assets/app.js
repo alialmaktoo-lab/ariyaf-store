@@ -2,7 +2,7 @@
  * ضع رقم واتساب المتجر الحقيقي هنا: رمز الدولة ثم الرقم، أرقام فقط.
  * مثال شكل فقط وليس رقمًا صالحًا: 968XXXXXXXX
  */
-const WHATSAPP_NUMBER = "968XXXXXXXX";
+const WHATSAPP_NUMBER = "96877602743";
 const products = window.ARIYAF_PRODUCTS || [];
 const cart = new Map();
 let activeCategory = "الكل";
