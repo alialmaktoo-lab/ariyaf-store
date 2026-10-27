@@ -35,7 +35,10 @@ function renderProducts() {
   byId("products").innerHTML = visible.map(p => {
     const quantity = cart.get(p.id) || 0;
     return `<article class="product">
-      <div class="product-art" aria-hidden="true"><span>${escapeHtml(p.emoji || "🍃")}</span></div>
+     <div class="product-art">
+  <img src="${escapeHtml(p.image || "")}" alt="${escapeHtml(p.name)}" loading="lazy"
+    onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('beforeend', '<span aria-hidden=true>🍃</span>')">
+</div>
       <h3>${escapeHtml(p.name)}</h3>
       <div class="description">${escapeHtml(p.description || "")}</div>
       <div class="product-bottom"><span class="price">${money(p.price)} ر.ع.</span>
